@@ -25,4 +25,9 @@ Here is what I did for simulation briefly, I randomly assign 300,000 voters to 3
 After simulation is done, I count these 300,000 votes and plot a similar plot but with different c.
 The results are following:
  ![9pic](./9pic.JPG)
- 
+ From top-left to buttom-right, there are 7 plots with c values -0.9, -0.5, -0.1, 0, 0.1, 0.5, 0.9. When c = 0 (2nd row, 1st col), there is no trend between x and y, which is expected by the authors of above mentioned analysis. However, if there is any positive correlation between color of the precinct and proportion of voters do straight voting, we observed the negative correlation observed by above video and claimed as artifacts. Thus, I believe that there is possibility that we could observe the declining linear relationship without any artifacts, if in deep blue precinct higher proportion of Biden voters vote straight for democrats than the proportion of Trump voters vote for republican straight.
+
+## Final words
+The conclusion of above mentioned Youtube video was based on the assumption that, proportion of voters voting straight for either republican or democrats is independent of the color of the precinct (more precisely, proportion of Trump voters). However, I did not get any data showing this assumption holds in the video or I missed it. Thus, I think it is a little hasty to say the observed negative linear relationship is an artifacts.
+
+Thank you for readying. You are welcome to check the code :)

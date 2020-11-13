@@ -3,7 +3,7 @@
 Disclamer: I am not a citizen nor a greencard holder when I am writing this. I only want to comment on the method and conclusion about this analysis. Bricks and rotton eggs are welcome!
 
 ## Background:
-2020 US election was significant. Biden team seems to be winning and Trump team claims that Biden team cheated. A group of data scientists from MIT looked at voting data from Michigan states and showed that votes are taken from Trump and given to Biden by some algorithms. Please see the youtube video here "https://www.youtube.com/watch?v=YRJCB6U-H4E". Briefly, they categorize michigan's votes to 4 types:
+2020 US election was significant. Biden team seems to be winning and Trump team claims that Biden team cheated. A group of data scientists from MIT looked at voting data from Michigan states and showed that votes were taken from Trump and given to Biden by some algorithms. Please see the youtube video here "https://www.youtube.com/watch?v=YRJCB6U-H4E". Briefly, they categorize michigan's votes to 4 types:
 1. Republican straight (vote for all republican candidates)
 2. Trump individually
 3. Democrat straight (vote for all democratic candidates)
@@ -12,7 +12,7 @@ They looked at each precinct, and count the numbers of above 4 types, lets say t
 1. r1 = n1 / (n1 + n3)
 2. r2 = n2 / (n2 + n4)
 Then they plot r1 on x axis, and r2-r1 on y axis. And then they show this pic
-![screenshot](ss.jpg)
+![screenshot](./ss.JPG)
 
 They are definitely surprised by the beautiful linear relationship. And they concluded that this cannot be true. So there muct be some algorithm taking votes from Trump to Biden.
 

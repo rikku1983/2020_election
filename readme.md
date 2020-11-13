@@ -23,5 +23,6 @@ Here is what I did for simulation briefly, I randomly assign 300,000 voters to 3
 2. Prior proportion of voters to do straight vote for either Republican or Democrats (set to be 20%, my naive guess)
 3. A correlation coefficient (-1 =< c <= 1) which indicates how strong the proportion of Trump's votes of given precinct affect proportion of voters to vote straight. If c = c, then in precinct with 90% Trump's votes (deep red community) it will have 20% of Trump voters do straight vote, and also 20% of Biden's voters do straight vote. In precinct with 10% Trump's votes (deep blue community), people will also have 20% chance to vote straight to either Replublican or Democrats. When c > 0, in deep red precinct, trump's voter would be more likely to vote straight while Biden's voter would less likely to vote straight for democrats. Vise versa, in deep blue precinct, Biden voters would be more likely to vote straight while Trump voters would be less likely to vote straight.
 After simulation is done, I count these 300,000 votes and plot a similar plot but with different c.
-The results are in 
+The results are following:
+ ![9pic](./9pic.JPG)
  

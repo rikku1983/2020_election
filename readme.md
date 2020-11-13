@@ -12,7 +12,7 @@ They looked at each precinct, and count the numbers of above 4 types, lets say t
 1. r1 = n1 / (n1 + n3)
 2. r2 = n2 / (n2 + n4)
 Then they plot r1 on x axis, and r2-r1 on y axis. And then they show this pic
-![screenshot](ss.png)
+![screenshot](ss.jpg)
 
 They are definitely surprised by the beautiful linear relationship. And they concluded that this cannot be true. So there muct be some algorithm taking votes from Trump to Biden.
 
@@ -23,4 +23,5 @@ Here is what I did for simulation briefly, I randomly assign 300,000 voters to 3
 2. Prior proportion of voters to do straight vote for either Republican or Democrats (set to be 20%, my naive guess)
 3. A correlation coefficient (-1 =< c <= 1) which indicates how strong the proportion of Trump's votes of given precinct affect proportion of voters to vote straight. If c = c, then in precinct with 90% Trump's votes (deep red community) it will have 20% of Trump voters do straight vote, and also 20% of Biden's voters do straight vote. In precinct with 10% Trump's votes (deep blue community), people will also have 20% chance to vote straight to either Replublican or Democrats. When c > 0, in deep red precinct, trump's voter would be more likely to vote straight while Biden's voter would less likely to vote straight for democrats. Vise versa, in deep blue precinct, Biden voters would be more likely to vote straight while Trump voters would be less likely to vote straight.
 After simulation is done, I count these 300,000 votes and plot a similar plot but with different c.
+The results are in 
  
